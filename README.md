@@ -8,12 +8,12 @@ This tool is a command-line tool that checks the HTTP status codes of a list of 
 ### Usage
 To use the script, first make sure it is executable:
 ```
-chmod +x http_status_checker.sh
+chmod +x httpstatus.sh
 ```
 Then run the script with the path to the input file as the only argument:
 
 ```
-./http_status_checker.sh [options] <input_file>
+./httpstatus.sh [options] <input_file>
 ```
 
 ### Options
@@ -36,10 +36,10 @@ If the `-o` option is specified, the script will write the status code and URL t
 ### Examples
 Check the HTTP status codes of the URLs in urls.txt and write the results to `output.txt`:
 ```
-./http_status_checker.sh -o output.txt urls.txt
+./httpstatus.sh -o output.txt urls.txt
 ```
 
 Check the HTTP status codes of the URLs in `urls.txt` and only write the results to the terminal and the "outputs" folder:
 ```
-./http_status_checker.sh urls.txt
+./httpstatus.sh urls.txt
 ```
