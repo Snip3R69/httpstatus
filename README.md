@@ -29,7 +29,7 @@ The script will print the HTTP status code and URL to the terminal, with differe
 - 400-499: Yellow
 - 500+: Red
 
-The script will also create a file in the "outputs" folder for each status code, and write the status code and URL to the corresponding file.
+The script will create a file in the "outputs" folder for each status code, and write the status code and URL to the corresponding file.
 
 If the `-o` option is specified, the script will write the status code and URL to the specified file as well.
 
